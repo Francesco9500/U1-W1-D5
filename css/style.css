@@ -1,10 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
 body {
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  border: #dee1e3;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 header {
   text-align: center;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
 }
-h1 {
+header img {
+  height: 80%;
+  width: 40%;
+  margin-top: 2em;
 }
+header h1 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-size: 25px;
+}
+
 .corso {
   background-image: url("../images/banner.jpg");
+  background-size: 100%;
+  box-sizing: border-box;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f04c2f;
+  color: white;
+  box-sizing: border-box;
+  border-radius: 3px;
+  width: 8em;
+  height: 3em;
+  border: 0;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+.epicode {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: #e22d0e;
+  color: white;
+}
+.epicode p {
+  font-style: italic;
+}
+.epicode h3 {
+  font-size: 20px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.immagini {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  border: 1px solid gray;
+}
+.immagini img {
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  text-align: center;
+}
+main h2 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+main p {
+  margin-bottom: 1em;
+}
+.notebook img {
+  border-radius: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  text-align: center;
+}
+footer h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+footer hr {
+  width: 30%;
+  color: white;
 }
